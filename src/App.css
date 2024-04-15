@@ -1,0 +1,16 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+
+/* PageDivide CSS */
+.pageDivide {
+  margin: 0 20px;
+  height: auto; /* Change height to auto */
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center; /* Center align items vertically */
+  justify-content: space-around; /* Distribute items evenly along the main axis */
+}

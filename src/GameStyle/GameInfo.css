@@ -1,0 +1,225 @@
+/* Body CSS */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  overflow: hidden;
+}
+
+/* App.jsx CSS */
+.SignUp-Container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.SignUp-Wallpaper {
+  background-color: #ffffff;
+  padding: 50px;
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  width: 80%;
+  max-width: 600px;
+}
+
+.SignUp-Title {
+  font-size: 3rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.SignUp-Header {
+  font-size: 1.5rem;
+  color: #666;
+  margin-bottom: 30px;
+}
+
+.PlayerName {
+  width: 80%;
+  padding: 15px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.PlayerName:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+.StartButton {
+  display: inline-block;
+  padding: 15px 30px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.StartButton:hover {
+  background-color: #0056b3;
+}
+
+
+/* header game  */
+
+.game-intro{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    padding: 15px;
+}
+
+.Title {
+  font-size: 3rem;
+  color: #333;
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.game-header {
+  margin:0;
+}
+
+/* ScoredBoard.jsx CSS */
+.scoreboard-wrapper {
+  background-color: #ffffff;
+  padding: 50px;
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  margin: 20px 60px;
+}
+
+.scoreboard-title {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.playerScore {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.playerName {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.playerImg {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+  animation: bounce 2s infinite alternate;
+}
+
+.playerScoreText {
+  font-size: 1.2rem;
+}
+
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}
+
+/* GameWrapper CSS */
+.gameWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.innerGameWrapper {
+  padding: 30px 50px;
+  background-color: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  width: 80%;
+  max-width: 1000px;
+  overflow-y: auto;
+}
+
+.gameScore {
+  display: flex;
+  justify-content: right;
+}
+
+.gameScore p {
+  font-size: 1.2rem;
+  color: #333; /* Dark text color */
+  margin: 0;
+}
+
+.gameQuestion {
+  font-size: 2.5rem;
+  color: #333; /* Dark text color */
+  margin-bottom: 30px;
+}
+
+button {
+  width: 100%;
+  padding: 15px 0;
+  margin: 10px 0;
+  background-color: #007bff; /* Blue button color */
+  color: #fff; /* White text color */
+  border: none;
+  border-radius: 10px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3; /* Darker blue color on hover */
+}
+
+button:focus {
+  outline: none;
+}
+
+.question {
+  font-size: 2rem;
+  margin-bottom: 30px;
+}
+
+/* .options {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+} */
+
+.option {
+  padding: 15px 30px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.option:hover {
+  background-color: #0056b3;
+}
+
+.option:focus {
+  outline: none;
+}
