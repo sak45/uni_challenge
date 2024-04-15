@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/uni_challenge/static/css/main.479369b4.css",
+    "main.js": "/uni_challenge/static/js/main.0874ac94.js",
+    "index.html": "/uni_challenge/index.html",
+    "main.479369b4.css.map": "/uni_challenge/static/css/main.479369b4.css.map",
+    "main.0874ac94.js.map": "/uni_challenge/static/js/main.0874ac94.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.479369b4.css",
+    "static/js/main.0874ac94.js"
+  ]
+}
